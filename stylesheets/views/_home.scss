@@ -1,0 +1,141 @@
+html , body{
+	height: 100%;
+}
+/*comenzando el home con la -primera parte*/
+#home{
+background: url(../img/img-home.png) no-repeat center center scroll;
+height: 100%;
+width: 100%;
+display: table;
+background-size: cover;
+}
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(231, 231, 231, 0);
+  width: 100%;
+    position: absolute;
+}
+.navbar-nav {
+  float: right;
+  }
+  .btn-xs{
+  border-radius: 11px;
+  padding: 1px 12px;
+}
+.fondo{
+	text-align: right;
+vertical-align: middle;
+color: rgb(33, 36, 36);
+display: table-cell;
+h3{
+	text-align: center;
+	padding: 23px 65px;
+}
+h4{
+	text-align: center;
+	  padding: 0 97px 37px;
+}
+.btn-lg {
+  background-color: rgb(237, 31, 47);
+  border: rgb(237, 31, 47);
+    border-radius: 11px;
+}
+}
+.banner{
+  width: 100%;
+}
+.icono{
+  position: relative;
+  bottom: -145px;
+  img{
+    border-radius: 50%;
+  }
+}
+/*segunda parte */
+.metodos {
+  text-align: center;
+}
+ /*tercera parte */
+ #postulacion{
+background-color:red;
+text-align: center;
+color:white;
+}
+/*cuarta parte*/
+#empresas{
+  padding-top: 73px;
+  padding-bottom: 80px;
+  hr{
+    border: 1px dashed red;
+  }
+  .icono{
+      bottom: -191px;
+  }
+}
+.clases{
+  text-align: center;
+  padding: 43px 117px;
+  img{
+      border-radius: 50%;
+  }
+  .btn-danger {
+  margin-top: 58px;
+}
+} 
+
+/*quinta parte */
+#centros-edu{
+  background-color:rgb(118, 255, 118);
+  padding-top: 73px;
+  padding-bottom: 80px;
+  hr{
+    border: 1px dashed white;
+  }
+  .icono {
+    bottom: -119px;
+  }
+}
+
+/*sexta parte*/
+
+
+#oportunidades{
+  background: url(../img/img-oportunidades-24.png) no-repeat center center scroll;
+height: 100%;
+width: 100%;
+display: table;
+background-size: cover;
+}
+.white{
+  background-color: white;
+  height: 990px;
+  width: 990px;
+}
+#oportunidades{
+  .container{
+    padding: 85px;
+  }
+}
+
+@media screen and (max-width :480px){
+  .fondo h3{
+    padding:23px 0;
+  }
+  .fondo h4{
+     padding: 0 0 37px;
+  }
+  .fondo{
+  padding-top: 85px;
+  }
+}
+
+@media screen and (max-width :480px){
+  #home{
+    background: none;
+  }
+}
+@media screen and (max-width :480px){
+  .clases{
+    padding: 0;
+  }
+}
