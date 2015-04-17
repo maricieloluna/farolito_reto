@@ -5970,7 +5970,7 @@ button.close {
 html, body {
   height: 100%; }
 
-/*comenzando el home con la -primera parte*/
+/*comenzando el home  -primera parte*/
 #home {
   background: url(../img/img-home.png) no-repeat center center scroll;
   height: 100%;
@@ -5991,6 +5991,16 @@ html, body {
   border-radius: 11px;
   padding: 1px 12px; }
 
+.navbar-toggle {
+  float: left;
+  margin-left: 16px; }
+
+.navbar-header .btn-lg, .navbar-header .btn-group-lg > .btn {
+  padding: 5px 3px;
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: 83px; }
+
 .fondo {
   text-align: right;
   vertical-align: middle;
@@ -5998,13 +6008,15 @@ html, body {
   display: table-cell; }
   .fondo h3 {
     text-align: center;
-    padding: 23px 65px; }
+    padding: 23px 65px;
+    color: #30c2e3; }
   .fondo h4 {
     text-align: center;
-    padding: 0 97px 37px; }
+    padding: 0 97px 37px;
+    color: #b4b6b8; }
   .fondo .btn-lg, .fondo .btn-group-lg > .btn {
-    background-color: #ed1f2f;
-    border: #ed1f2f;
+    background-color: #f03232;
+    border: #f03232;
     border-radius: 11px; }
 
 .banner {
@@ -6017,58 +6029,343 @@ html, body {
     border-radius: 50%; }
 
 /*segunda parte */
+#metodologia {
+  padding: 62px 0; }
+  #metodologia .icono {
+    bottom: -93px; }
+
 .metodos {
   text-align: center; }
+  .metodos .row {
+    padding-top: 62px; }
+  .metodos h2 {
+    color: red; }
+  .metodos h3 {
+    color: #aba6a6; }
+  .metodos .btn-danger {
+    background-color: #11c3d2;
+    border-color: #11c3d2;
+    padding: 12px 52px;
+    border-radius: 20px; }
+
+.competencia {
+  padding: 0 25px;
+  position: relative;
+  top: 244px;
+  left: 78px; }
+  .competencia h3 {
+    color: red; }
+  .competencia p {
+    color: #aba6a6; }
+
+.preferencias {
+  padding: 0 25px;
+  position: relative;
+  top: 244px;
+  right: 78px; }
+  .preferencias h3 {
+    color: red; }
+  .preferencias p {
+    color: #aba6a6; }
+
+.analisis {
+  padding: 54px 140px; }
+  .analisis h3 {
+    color: red; }
+  .analisis p {
+    color: #aba6a6; }
+
+.circulo-mayor {
+  background-color: red;
+  width: 70%;
+  border-radius: 50%;
+  margin: 0 auto;
+  height: 55%;
+  padding: 21px; }
+
+.circulo-menor {
+  background-color: red;
+  border-radius: 50%;
+  height: 100%;
+  width: 101%;
+  margin: 0 auto;
+  border: 3px dashed white; }
+  .circulo-menor p {
+    padding: 45px 50px;
+    padding-bottom: 25px;
+    color: white;
+    font-size: 21px; }
+  .circulo-menor h6 {
+    color: white;
+    font-size: 17px; }
+
+.linea1 {
+  border: 2px dashed red;
+  transform: rotate(157deg);
+  position: relative;
+  left: 173px;
+  top: 191px; }
+
+.linea2 {
+  border: 2px dashed red;
+  transform: rotate(90deg);
+  position: relative;
+  width: 139px; }
+
+.linea3 {
+  border: 2px dashed red;
+  transform: rotate(202deg);
+  position: relative;
+  right: 173px;
+  top: 201px; }
 
 /*tercera parte */
 #postulacion {
-  background-color: red;
+  background: url(../img/img-02.png) no-repeat center center scroll;
   text-align: center;
-  color: white; }
+  color: white;
+  padding: 68px 0; }
+  #postulacion .icono {
+    bottom: -106px; }
+
+.pasos {
+  padding-top: 85px; }
+  .pasos h3 {
+    text-align: left; }
+  .pasos hr {
+    border: 2px dashed white; }
+  .pasos p {
+    border-left: 2px dashed white;
+    padding-bottom: 148px;
+    padding-left: 81px;
+    padding-top: 17px; }
+  .pasos .btn-danger {
+    padding: 17px 44px;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #32B5D0;
+    border-color: #FCFCFC; }
+  .pasos .numero {
+    position: relative;
+    top: 14px;
+    right: 14px; }
+    .pasos .numero img {
+      float: left; }
+  .pasos .col-md-4 {
+    padding-left: 0px; }
+
+.imagen-centro {
+  float: right;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1px;
+  left: 76px;
+  z-index: 10;
+  width: 34%; }
 
 /*cuarta parte*/
 #empresas {
   padding-top: 73px;
-  padding-bottom: 80px; }
+  padding-bottom: 28px; }
+  #empresas .titulo h2 {
+    color: red; }
+  #empresas .titulo h3 {
+    color: #999696; }
+  #empresas .titulo h4 {
+    color: #c5c5c5; }
   #empresas hr {
     border: 1px dashed red; }
   #empresas .icono {
-    bottom: -191px; }
+    bottom: -59px; }
+  #empresas .btn-danger {
+    color: #fff;
+    background-color: #F1694D;
+    border-color: #F1694D;
+    width: 196px;
+    height: 59px;
+    border-radius: 20px;
+    font-size: 18px; }
 
 .clases {
   text-align: center;
-  padding: 43px 117px; }
+  padding: 75px 117px; }
+  .clases p {
+    color: #C7C1C1; }
+  .clases h4 {
+    color: #a9a8a8;
+    margin: 18px 0; }
+  .clases h5 {
+    color: #6aebf5; }
   .clases img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-bottom: 25px; }
   .clases .btn-danger {
     margin-top: 58px; }
 
 /*quinta parte */
 #centros-edu {
-  background-color: #76ff76;
+  background-color: #72EA72;
   padding-top: 73px;
-  padding-bottom: 80px; }
+  padding-bottom: 35px; }
   #centros-edu hr {
     border: 1px dashed white; }
+  #centros-edu .texto h2 {
+    color: white; }
+  #centros-edu .texto h3 {
+    color: #f5f51f; }
+  #centros-edu .texto h4 {
+    color: #f2f7f7; }
+  #centros-edu .clases-edu {
+    padding: 75px 117px; }
+    #centros-edu .clases-edu h4 {
+      color: #F0ECEC;
+      margin: 18px 0; }
+    #centros-edu .clases-edu p {
+      color: #FAF5F5; }
+    #centros-edu .clases-edu img {
+      border-radius: 50%;
+      margin-bottom: 25px; }
   #centros-edu .icono {
-    bottom: -119px; }
+    bottom: -67px; }
+  #centros-edu .btn-danger {
+    color: #fff;
+    background-color: #72EA72;
+    border-color: white;
+    width: 196px;
+    height: 59px;
+    border-radius: 20px;
+    font-size: 18px; }
 
 /*sexta parte*/
 #oportunidades {
   background: url(../img/img-oportunidades-24.png) no-repeat center center scroll;
-  height: 100%;
-  width: 100%;
-  display: table;
   background-size: cover; }
+  #oportunidades .icono {
+    bottom: -103px; }
+  #oportunidades .container {
+    padding: 65px 141px; }
 
+/*clase white*/
 .white {
-  background-color: white;
-  height: 990px;
-  width: 990px; }
+  background-color: white; }
+  .white .row {
+    text-align: center;
+    padding-top: 55px;
+    color: #9b9b9b;
+    font-size: 29px; }
+  .white hr {
+    border: 1px dashed #cac5c5;
+    width: 77%;
+    margin-left: 121px; }
+  .white .button {
+    text-align: center;
+    padding: 55px; }
+    .white .button .btn-primary {
+      color: #fff;
+      background-color: #A0A3A5;
+      border-color: #A0A3A5;
+      width: 111px;
+      border-radius: 12px; }
 
-#oportunidades .container {
-  padding: 85px; }
+/*clase de servicios*/
+.servicios {
+  padding: 34px 87px; }
+  .servicios ul {
+    list-style: none; }
+  .servicios li {
+    color: #999999;
+    font-size: 14px; }
+  .servicios .btn-primary {
+    float: right;
+    background-color: white;
+    border-color: red;
+    color: red;
+    border-radius: 7px;
+    width: 93px; }
+  .servicios h4 {
+    text-decoration: underline;
+    color: #2ddfd8; }
 
+/*sexta parte*/
+#blog {
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 29px;
+  padding-bottom: 0; }
+  #blog h2 {
+    color: #9b9b9b; }
+  #blog .btn-primary {
+    width: 239px;
+    height: 57px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #11C3D2;
+    border-color: #11C3D2; }
+  #blog .row {
+    padding: 93px 141px;
+    padding-bottom: 50px; }
+    #blog .row img {
+      position: relative;
+      bottom: 40px;
+      border-radius: 50%; }
+    #blog .row .parrafo {
+      padding: 0 30px 45px;
+      position: relative; }
+  #blog .icono {
+    bottom: -69px; }
+
+/*--hover---*/
+.background {
+  background-color: #efeaea;
+  color: #b0b0ad; }
+
+.background:hover {
+  background-color: #f4ce0b; }
+  .background:hover .parrafo {
+    color: white; }
+
+/*septima parte*/
+#contacto {
+  padding: 72px 0;
+  background-color: #ececec; }
+  #contacto h2 {
+    text-align: center;
+    color: #9b9b9b; }
+  #contacto span {
+    float: left;
+    padding-top: 55px;
+    color: #9b9b9b; }
+  #contacto form {
+    padding-top: 38px; }
+    #contacto form .btn-default {
+      float: right;
+      margin-top: 21px;
+      padding: 4px 41px;
+      background-color: #8C8C8C;
+      border-color: #8C8C8C;
+      color: white; }
+
+/*octava parte*/
+#footer {
+  background-color: gray; }
+  #footer img {
+    border-radius: 50%;
+    position: relative;
+    bottom: 18px; }
+  #footer span {
+    float: right;
+    padding: 10px 0;
+    color: white; }
+
+/*mediascreen*/
+@media screen and (min-width: 480px) {
+  .navbar-header .btn-primary {
+    visibility: hidden;
+   /*float: right;
+  margin-top: 12px;
+  margin-right: 13px;
+  padding: 8px 5px;
+}*/ } }
 @media screen and (max-width: 480px) {
   .fondo h3 {
     padding: 23px 0; }
@@ -6080,9 +6377,103 @@ html, body {
     padding-top: 85px; } }
 @media screen and (max-width: 480px) {
   #home {
-    background: none; } }
+    background: none; }
+
+  #empresas {
+    padding-top: 39px;
+    padding-bottom: 49px; }
+    #empresas .btn-danger {
+      margin-top: 45px; } }
 @media screen and (max-width: 480px) {
   .clases {
-    padding: 0; } }
+    padding: 0; }
+
+  #centros-edu {
+    padding-top: 30px; }
+    #centros-edu .clases-edu {
+      padding: 0; }
+    #centros-edu .btn-danger {
+      margin-top: 37px; } }
+@media screen and (max-width: 480px) {
+  #blog .row {
+    padding: 64px 0; }
+
+  #footer .container {
+    text-align: center; }
+
+  .analisis {
+    padding: 0; }
+
+  .competencia {
+    padding: 0;
+    position: initial;
+    top: 0;
+    left: 0; } }
+@media screen and (max-width: 480px) {
+  .linea3 {
+    border: 2px dashed red;
+    transform: rotate(0deg);
+    position: initial;
+    right: 0;
+    top: 0; }
+
+  .linea2 {
+    border: 2px dashed red;
+    transform: rotate(0deg);
+    position: initial;
+    width: 139px; }
+
+  #metodologia {
+    padding: 45px 0 59px; }
+
+  .preferencias {
+    padding: 0;
+    position: initial;
+    top: 0;
+    right: 0; }
+
+  .metodos h2 {
+    color: #11c3d2; }
+  .metodos .row {
+    padding-top: 0;
+    padding-bottom: 27px; } }
+@media screen and (max-width: 480px) {
+  #postulacion {
+    padding: 0; }
+    #postulacion h2 {
+      margin-top: 49px; }
+
+  .pasos {
+    padding-top: 0;
+    padding-bottom: 49px; }
+    .pasos .btn-danger {
+      margin-top: 39px; }
+
+  .pasos p {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 0;
+    border-left: 0; }
+
+  .pasos .row h3 {
+    text-align: inherit; }
+
+  .pasos .numero {
+    position: initial;
+    padding: 24px 0; }
+    .pasos .numero img {
+      float: none; }
+
+  .imagen.centro {
+    float: none;
+    position: initial;
+    bottom: 0;
+    left: 0; }
+
+  .imagen-centro {
+    float: none;
+    position: initial;
+    bottom: 0;
+    left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
