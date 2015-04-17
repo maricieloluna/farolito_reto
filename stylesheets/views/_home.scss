@@ -9,31 +9,7 @@ width: 100%;
 display: table;
 background-size: cover;
 }
-.navbar-default {
-  background-color: rgba(248, 248, 248, 0);
-  border-color: rgba(231, 231, 231, 0);
-  width: 100%;
-    position: absolute;
-}
-.navbar-nav {
-  float: right;
-  }
-  .btn-xs{
-  border-radius: 11px;
-  padding: 1px 12px;
-}
-.navbar-toggle{
-  float: left;
-  margin-left: 16px;
-}
-.navbar-header{
-  .btn-lg{
-    padding: 5px 3px;
-  font-size: 10px;
-  margin-top: 15px;
-  margin-left: 83px;
-  }
-}
+
 .fondo{
 	text-align: right;
 vertical-align: middle;
@@ -425,7 +401,7 @@ background-size: cover;
             }
     }
   .icono{
-    bottom:-69px;
+    bottom:-37px;
       }
     }
   /*--hover---*/
@@ -466,21 +442,6 @@ background-color:rgb(244, 206, 11);
  }
 }
  /*octava parte*/
-
-#footer{
-  background-color: gray;
-img{
-border-radius: 50%;
-position: relative;
-  bottom: 18px;
-}
-span{
-  float: right;
-  padding: 10px 0;
-  color:white;
-}
-}
-
 
 
 /*mediascreen*/

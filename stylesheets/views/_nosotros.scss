@@ -1,0 +1,104 @@
+html , body{
+	height: 100%;
+}
+/*seccion de la portada .1parte*/
+.nav-color{
+	background-color: rgb(230, 245, 241) !important;
+}
+.navbar-nav .btn-primary{
+background-color: #BBBEC0;
+  border-color: #BBBEC0;
+}
+
+#portada-nst{
+	background: url(../img/img_nosotros-02.png) no-repeat center center scroll;
+height: 74%;
+width: 100%;
+display: table;
+background-size: cover;
+.centro{
+	  text-align: center;
+  	padding: 85px 100px;
+  	color: rgb(250, 246, 239);
+}
+.icono{
+	  bottom: -128px;
+}
+}
+/*seccion de fundadores */
+#fundadores{
+	text-align: center;
+	padding: 40px 0;
+	h2{
+		padding: 38px 0;
+	}
+	hr{
+		border-bottom:1px dashed gray;
+		width: 76% 
+	}
+}
+.gerentes{
+	padding: 27px 99px;
+	.foto{
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 68%;
+	padding: 5px;
+	margin: 0 auto;
+  	img{
+  		border-radius: 50%;
+ 		width: 100%;
+  		}
+		}
+	}
+/*seccion de asesores parte3*/
+
+#asesores{
+text-align: center;
+	.foto{
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 68%;
+	padding: 5px;
+	margin: 0 auto;
+  	img{
+  		border-radius: 50%;
+ 		width: 100%;
+  		}
+			}
+	hr{
+		border-bottom:1px dashed gray;
+		width: 76% 
+		}
+}
+/*seccion de comite*/
+
+#comite{
+	text-align: center;
+  padding-top: 28px;
+  .centro{
+  	padding: 32px 110px 70px;
+  }
+  .icono{
+  	bottom: -36px;
+  }
+}
+
+
+/*/*seccion frase */
+#frase{
+	background-color: red;
+	padding: 89px 0;
+	.span{
+		text-align: center;
+		color: white;
+		hr{
+			border: 1px dashed white;
+		}
+	}
+	img{
+		border-radius: 50%;
+	}
+}
+
+/*mediascreen*/
