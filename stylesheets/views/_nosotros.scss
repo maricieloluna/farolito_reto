@@ -4,14 +4,20 @@ html , body{
 /*seccion de la portada .1parte*/
 .nav-color{
 	background-color: rgb(230, 245, 241) !important;
+  	position: fixed !important;
+  	z-index: 10 !important;
 }
 .navbar-nav .btn-primary{
-background-color: #BBBEC0;
-  border-color: #BBBEC0;
+  background-color: #9A9B9D;
+  border-color: #9A9B9D;
+  padding: 2px 25px;
+}
+.navbar-brand{
+	padding: 7px 49px;
 }
 
 #portada-nst{
-	background: url(../img/img_nosotros-02.png) no-repeat center center scroll;
+background: url(../img/img_nosotros-02.png) no-repeat center center scroll;
 height: 74%;
 width: 100%;
 display: table;
@@ -20,6 +26,12 @@ background-size: cover;
 	  text-align: center;
   	padding: 85px 100px;
   	color: rgb(250, 246, 239);
+  	h5{
+  		font-size: 20px;
+  		margin: 0;
+  		line-height: 28px;
+  		color: rgb(232, 232, 232);
+  	}
 }
 .icono{
 	  bottom: -128px;
@@ -87,8 +99,16 @@ text-align: center;
 
 /*/*seccion frase */
 #frase{
-	background-color: red;
+	background-color:#f03232;
 	padding: 89px 0;
+	h4{
+		font-size: 23px;
+	}
+	h5{
+		margin: 0;
+		font-size: 16px;
+		padding-top: 17px;
+	}
 	.span{
 		text-align: center;
 		color: white;
@@ -102,3 +122,11 @@ text-align: center;
 }
 
 /*mediascreen*/
+@media screen and(max-width: 480px){
+	#portada-nst .centro{
+		padding: 48px 0;
+	}
+	.gerentes {
+ 		padding:0;
+	}
+}

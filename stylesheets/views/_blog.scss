@@ -1,0 +1,34 @@
+html , body{
+	height: 100%;
+}
+#blog {
+	padding: 69px 0;
+h2 {
+ padding: 36px 0 47px;
+}
+}
+#blog .row {
+  padding: 33px 141px;
+  }
+ .background:hover{
+background-color:rgb(244, 206, 11);
+.parrafo{
+  color:white;
+}
+.text-sky{
+	color:red;
+}
+}
+@media screen and(max-width: 480px){
+#blog {
+	.row {
+  padding: 0;
+  	img{
+		bottom: -8px;
+	}
+	}
+	h2 {
+  	padding:0;
+	}
+}
+}

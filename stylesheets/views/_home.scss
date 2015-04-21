@@ -1,7 +1,74 @@
 html , body{
 	height: 100%;
 }
+
+/*bottom del responsive  -  modal-ctn efectos*/
+.btn-responsive {
+  background-color: rgb(247, 75, 75);
+  border: rgb(247, 75, 75);
+  float: right;
+  margin-right: 15px;
+  padding: 6px 6px;
+  margin-top: 9px;
+}
+.btn-responsive:hover{
+  background-color: rgb(247, 75, 75);
+  border: rgb(247, 75, 75);
+}
+.modal-dialog{
+z-index: 2000;
+ width: 430px;
+ h5{
+  padding-left: 23px;
+ }
+}
+.modal-footer{
+  border-top: none;
+  .btn-primary{
+  background-color: #30CBDF;
+  border-color: #30CBDF;
+  border-radius: 12px;
+  padding: 7px 15px;
+  }
+}
+.modal-header {
+  text-align: center;
+  border: none;
+  h4{
+    font-size: 33px;
+    font-weight: 600;
+  }
+}
+.modal-body {
+  padding-bottom: 3px;
+  .form-control {
+    border-radius: 0;
+  }
+}
+.modal-content {
+  border-radius: 25px;
+  padding-bottom: 33px;
+}
+/*fin del bottom-modal */
+
+
 /*comenzando el home  -primera parte*/
+
+button.navbar-toggle {
+  border: none;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color:transparent;
+  }
+
+
+.navbar-nav > li > a {
+  font-size: 18px;
+  .btn-home{
+padding:2px 16px;
+}
+}
 #home{
 background: url(../img/img-home.png) no-repeat center center scroll;
 height: 100%;
@@ -30,6 +97,12 @@ h4{
   border:rgb(240, 50, 50);
     border-radius: 11px;
 }
+}
+.opciones{
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 1px;
+  color:gray;
 }
 .banner{
   width: 100%;
@@ -401,7 +474,7 @@ background-size: cover;
             }
     }
   .icono{
-    bottom:-37px;
+    bottom: -101px;
       }
     }
   /*--hover---*/
@@ -496,9 +569,18 @@ background-color:rgb(244, 206, 11);
 @media screen and (max-width :480px){
   #blog .row{
     padding: 64px 0;
+    .parrafo {
+  padding: 0 30px 6px;
+    p{
+      margin-top: 20px;
+      }
+    }
   }
   #footer .container{
     text-align: center;
+    span{
+        padding: 10px 32px;
+    }
   }
   .analisis{
     padding: 0;
