@@ -9,7 +9,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<nav class="navbar navbar-default">
+			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
@@ -24,17 +24,23 @@
 		      	</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="#portada">Sobre nosotros</a></li>
-			        <li><a href="#portafolio">Oportunidades</a></li>
-    				 <li>
-			        	<select class="opciones hidden-xs">
-			        		<option>Es</option>
-			        		<option>In</option>
-			        	</select>
-		        	</li> 
-			        <li><a href="#portafolio"><button type="button" class="btn btn-primary btn-xs hidden-xs btn-lg btn-home" data-toggle="modal" data-target="#myModal">INGRESAR</button></a></li>
-			      </ul>
+			      	<ul class="nav navbar-nav">
+				      	<li class="hidden-md hidden-sm hidden-lg"><a href="index.html">home</a></li>
+				      	<li class="hidden-md hidden-sm hidden-lg"><a href="blog.html">blog</a></li>
+				        <li><a href="nosotros.html">Sobre nosotros</a></li>
+				        <li class="hidden-xs"><a href="#portafolio">Oportunidades</a></li>
+				        <li class="hidden-md hidden-sm hidden-lg"><a href="">ingresa a tu cuenta</a></li>
+				        <li class="hidden-md hidden-sm hidden-lg"><a href="">crear cuenta</a></li>
+				        <li class="hidden-md hidden-sm hidden-lg"><a href="#blog">blog</a></li>
+				        <li class="hidden-md hidden-sm hidden-lg"><a href="#contacto">contáctanos</a></li>
+						<li>
+				        	<select class="opciones hidden-xs">
+				        		<option>Es</option>
+				        		<option>In</option>
+				        	</select>
+			        	</li> 
+				        <li class="hidden-xs"><a href="#portafolio"><button type="button" class="btn btn-primary btn-xs hidden-xs btn-lg btn-home" data-toggle="modal" data-target="#myModal">INGRESAR</button></a></li>
+			      	</ul>
 		  		</div>  
 			   </div>
 			</nav>
@@ -49,48 +55,53 @@
 						<img src="img/img-home2.png" class="hidden-lg hidden-md banner">
 					</div>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#metodologia"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
 			<section id="metodologia">
 				<div class="container">
 					<div class="metodos">
-						<h2>Nuestra metodologìa</h2>
-						<h3 class="hidden-xs"><img src="iconos/iconos-17.png"> Nuestro examen es tres veces màs fuerte que el proceso interno aplicado por nuestros propios clientes. <img src="iconos/iconos-18.png"></h3>
+						<h2 class="red-cl">Nuestra metodologìa</h2>
+						<h3 class="hidden-xs red-cl"><img src="iconos/iconos-17.png"> Nuestro examen es tres veces más fuerte</h3>
+						<h3 class="hidden-xs text-gray">que el proceso interno aplicado por nuestros propios clientes. <img src="iconos/iconos-18.png"></h3>
 						<div class="row m-0">
 							<div class="col-md-3">
 								<hr class="linea1 hidden-xs">
 								<div class="competencia">
-									<h3>Evaluación de competencias</h3>
-									<p>Selección de talento que cuenta con las competencias claves para el puesto.</p>
+									<h3 class="red-cl">Evaluación de competencias</h3>
+									<p class="text-gray-cl">Selección de talento que cuenta con las competencias claves para el puesto.</p>
 								</div>
 							</div>
 							<div class="col-md-6">
+								<div class="circulo-overlay hidden-xs">
+										<h6 class="text-gray">El corazón de nuestra metodologia es nuestro propio examen</h6>
+										<img src="iconos/iconos-19.png">
+								</div>
 								<div class="circulo-mayor hidden-xs" >
 									<div class="circulo-menor">
-										<p>Obtenemos el perfil profesional del postulante mediante un análisis completo que identifica el mejor talento para cualquier puesto.</p>
+										<p class="text-gray-cl">Obtenemos el perfil profesional del postulante mediante un análisis completo que identifica el mejor talento para cualquier puesto.</p>
 										<h6>Nos basamos en 3 pilares:</h6>
 									</div>
 								</div>
 								<hr class="linea2">
 								<div class="analisis">
-									<h3>Análisis continuo</h3>
-									<p>Actualización continua del perfil óptimo para cada puesto, que permita incorporar cambios a la economía laboral u operaciones internas que impactan el día al día</p>
+									<h3 class="red-cl">Análisis continuo</h3>
+									<p class="text-gray-cl">Actualización continua del perfil óptimo para cada puesto, que permita incorporar cambios a la economía laboral u operaciones internas que impactan el día al día</p>
 								</div>
 							</div>
 							<div class="col-md-3">
 								<hr class="linea3">
 								<div class="preferencias">
-									<h3>Evaluacion de preferencias</h3>
-									<p>Selección de talento que permanecerá más tiempo por tener preferencias de trabajo alineadas con el puesto.</p>
+									<h3 class="red-cl">Evaluacion de preferencias</h3>
+									<p class="text-gray-cl">Selección de talento que permanecerá más tiempo por tener preferencias de trabajo alineadas con el puesto.</p>
 								</div>
 							</div>
 						</div>
 						<button type="button" class="btn btn-danger">VER MÁS</button>
 					</div>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#postulacion"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -107,7 +118,6 @@
 								</div>
 								<img src="iconos/iconos-09.png"class="imagen-centro">
 								<h3>Crea de perfil</h3>
-								<hr>
 							</div>
 							<div class="col-md-4">
 								<p>Ingresa tus datos en nuestra pagina y forma parte de nuetra comunidad</p>
@@ -122,7 +132,6 @@
 								</div>
 								<img src="iconos/iconos-10.png"class="imagen-centro">
 								<h3>Postula a oportunidades laborales</h3>
-								<hr>
 							</div>
 							<div class="col-md-4">
 								<p>Conoce en minutos si cumples con los requisitos para el puesto. Te enviamos correos con las oportunidades para las que cumples con los requisitos.</p>
@@ -137,17 +146,16 @@
 								</div>
 								<img src="iconos/iconos-11.png"class="imagen-centro">
 								<h3>Mejora tu perfil profesional</h3>
-								<hr>
 							</div>
 							<div class="col-md-4">
 								<p> Participa en uno de nuestros cursos de Career Coaching y aprende maneras de superar desafíos y salir adelante en el ambiente laboral.</p>
 							</div>
 							<div class="col-md-2"></div>
 						</div>
-						<button type="button" class="btn btn-danger hidden-xs">VER OPORTUNIDADES</button>
+						<a href="#oportunidades"><button type="button" class="btn btn-danger hidden-xs">VER OPORTUNIDADES</button></a>
 					</div>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#empresas"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -181,9 +189,9 @@
 							<p>Asesoría dirigida a nuevos trabajadores durante el proceso de inserción.</p>
 						</div>
 					</div>
-					<button type="button" class="btn btn-danger">CONTÁCTANOS</button>
+					<a href="#contacto"><button type="button" class="btn btn-danger">CONTÁCTANOS</button></a>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#centros-edu"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -216,9 +224,9 @@
 							<p>Asegurar que cada sucursal y cada profesor brinden la misma calidad de formación, evaluando a todos los alumnos con el mismo examen.</p>
 						</div>
 					</div>
-					<button type="button" class="btn btn-danger">CONTÁCTANOS</button>
+					<a href="#contacto"><button type="button" class="btn btn-danger">CONTÁCTANOS</button></a>
 					<div class="icono hidden-xs text-center">
-							<a href=""><img src="iconos/iconos-15.png"></a>
+							<a href="#oportunidades"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -265,7 +273,7 @@
 						<div class="button"><button type="button" class="btn btn-primary btn-sm">VER TODOS</button></div>
 					</div>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#blog"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -300,9 +308,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="button hidden-xs"><button type="button" class="btn btn-primary btn-sm">VER TODOS</button></div>
+					<a href="blog.html"><div class="button hidden-xs"><button type="button" class="btn btn-primary btn-sm">VER TODOS</button></div></a>
 					<div class="icono hidden-xs text-center">
-						<a href=""><img src="iconos/iconos-15.png"></a>
+						<a href="#contacto"><img src="iconos/iconos-15.png"></a>
 					</div>
 				</div>
 			</section>
@@ -366,5 +374,6 @@
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascripts/b3/collapse.js"></script>
 		<script src="javascripts/b3/transition.js"></script>
+		<script src="farolito.js"></script>
 	</body>	
 </html>	

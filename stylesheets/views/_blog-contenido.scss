@@ -10,6 +10,14 @@ html , body{
 	  .persona{
 	  	width: 100%;
 	  }
+	  button{
+	  	width: 30%;
+	  	background-color: #3B579D;
+  		border-color: #3B569D;
+	  	img{
+	  		width: 27%;
+	  	}
+	  }
 }
 .titulo{
 	display: inline-block
@@ -50,4 +58,27 @@ position: relative;
 .texto-blog{
 	line-height: 25px;
   padding-top: 20px;
+}
+.modal-footer{
+	.btn-default {
+  color: #FAF2F2;
+  background-color: #4A7AE0;
+  border-color: #F7F4F4;
+	}
+}
+
+@media screen and (max-width:480px){
+#blog-interno{
+	h1{
+		font-size: 25px;
+	}
+	 .titulo {
+	 	h3{
+		font-size: 19px;
+		}
+	}
+	.texto-blog {
+  		padding-top: 8px;
+	}
+}
 }

@@ -9,7 +9,7 @@ html , body{
   float: right;
   margin-right: 15px;
   padding: 6px 6px;
-  margin-top: 9px;
+  margin-top: 11px;
 }
 .btn-responsive:hover{
   background-color: rgb(247, 75, 75);
@@ -48,11 +48,29 @@ z-index: 2000;
 .modal-content {
   border-radius: 25px;
   padding-bottom: 33px;
+  border: 5px solid gray;
 }
 /*fin del bottom-modal */
 
 
+/* inicio del efecto-barra de navegacion dinamica*/
+
+.navbar{
+  background-color: transparent;
+  transition:0.8s ease-in-out;
+  border-radius: 0px;
+  &.scroll{
+    background-color: #E6F5F1;
+    z-index: 11;
+    position: fixed;
+  }
+}
+/*fin-barra*/
+
+
+
 /*comenzando el home  -primera parte*/
+
 
 button.navbar-toggle {
   border: none;
@@ -61,7 +79,6 @@ button.navbar-toggle {
 .navbar-default .navbar-toggle:hover {
   background-color:transparent;
   }
-
 
 .navbar-nav > li > a {
   font-size: 18px;
@@ -114,7 +131,11 @@ h4{
     border-radius: 50%;
   }
 }
+
+
 /*segunda parte */
+
+
 #metodologia{
    padding: 62px 0;
     .icono{
@@ -122,16 +143,26 @@ h4{
     }
 }
 
+.circulo-overlay{
+   height:404px;
+  border: 3px dashed tomato;
+  border-radius: 50%;
+  width: 74%;
+  margin: 0 auto;
+  padding: 69px;
+  h6{
+    font-size: 24px;
+  }
+  img{
+      position: relative;
+      right: 44px;
+  }
+}
+
 .metodos {
   text-align: center;
   .row{
     padding-top: 62px;
-  }
-  h2{
-    color: red;
-  }
-  h3{
-    color: rgb(171, 166, 166);
   }
   .btn-danger{
     background-color: rgb(17, 195, 210);
@@ -139,89 +170,87 @@ h4{
   padding: 12px 52px;
   border-radius: 20px;
   }
-
 }
 
 .competencia{
-  padding: 0 25px;
   position: relative;
  top: 244px;
   left: 78px;
-  h3{
-    color: red;
-  }
   p{
-    color: rgb(171, 166, 166);
+    font-size: 17px;
   }
 }
 .preferencias{
-  padding: 0 25px;
   position: relative;
-  top:244px;
+  top:236px;
   right:78px;
-  h3{
-    color: red;
-  }
   p{
-    color: rgb(171, 166, 166);
+    font-size: 17px;
   }
 }
 .analisis{
   padding:54px 140px;
-  h3{
-    color: red;
-  }
   p{
-    color: rgb(171, 166, 166);
+    font-size: 17px;
   }
 }
 .circulo-mayor{
-  background-color: red;
-  width: 70%;
+  background-color: #f03232;
+ width: 74%;
   border-radius: 50%;
   margin: 0 auto;
-  height: 55%;
-  padding: 21px;
+  height: 404px;
+ padding: 8px;
+   position: absolute;
+  top: 0;
+  right: 80px;
 }
 .circulo-menor{
-  background-color: red;
+  background-color: #f03232;
   border-radius: 50%;
   height: 100%;
-  width: 101%;
+  width: 100%;
   margin: 0 auto;
   border: 3px dashed white;
   p{
-     padding: 45px 50px;
+    padding: 88px 45px;
   padding-bottom: 25px;
-  color: white;
+  color: rgb(232, 232, 232);
   font-size: 21px;
   }
   h6{
-    color: white;
-  font-size: 17px;
+    color:  rgb(232, 232, 232);
+  font-size:21px;
   }
 }
 .linea1{
-   border: 2px dashed red;
+   border: 2px dashed #f03232;
   transform: rotate(157deg);
   position: relative;
-  left: 173px;
+  left: 144px;
   top: 191px;
+  width: 72%
 }
 .linea2{
-   border: 2px dashed red;
+   border: 2px dashed #f03232;
   transform: rotate(90deg);
   position: relative;
-  width: 139px;
+  width:96px;
+  top: 25px;
 }
 .linea3{
-  border: 2px dashed red;
+  border: 2px dashed #f03232;
   transform: rotate(202deg);
   position: relative;
-  right: 173px;
-  top: 201px;
+  right: 145px;
+  top:191px;
+  width: 72%;
 }
+
+
  /*tercera parte */
+
+
  #postulacion{
 background: url(../img/img-02.png) no-repeat center center scroll;
 text-align: center;
@@ -236,6 +265,9 @@ padding: 68px 0;
   padding-top:85px;
   h3{
     text-align: left;
+    border-bottom: 2px dashed white;
+    margin-left: 53px;
+    padding-bottom: 18px;
   }
   hr{
     border: 2px dashed white;
@@ -278,6 +310,8 @@ padding: 68px 0;
 
 
 /*cuarta parte*/
+
+
 #empresas{
   padding-top: 73px;
   padding-bottom: 28px;
@@ -330,7 +364,10 @@ padding: 68px 0;
 }
 } 
 
+
 /*quinta parte */
+
+
 #centros-edu{
   background-color:#72EA72;
   padding-top: 73px;
@@ -376,6 +413,7 @@ padding: 68px 0;
   font-size: 18px;
   }
 }
+
 
 /*sexta parte*/
 
@@ -443,7 +481,10 @@ background-size: cover;
   }
 }
 
+
 /*sexta parte*/
+
+
 #blog{
   text-align: center;
   padding-bottom: 35px;
@@ -488,7 +529,10 @@ background-color:rgb(244, 206, 11);
   color:white;
 }
 }
+
+
  /*septima parte*/
+
 
 #contacto{
   padding: 72px 0;
@@ -514,6 +558,8 @@ background-color:rgb(244, 206, 11);
   }
  }
 }
+
+
  /*octava parte*/
 
 
@@ -521,12 +567,7 @@ background-color:rgb(244, 206, 11);
 @media screen and (min-width :480px){
 .navbar-header .btn-primary{
   visibility: hidden;
-   /*float: right;
-  margin-top: 12px;
-  margin-right: 13px;
-  padding: 8px 5px;
-}*/
-}
+  }
 }
 @media screen and (max-width :480px){
   .fondo h3{
@@ -591,7 +632,15 @@ background-color:rgb(244, 206, 11);
   top:0;
   left:0;
   }
+  .background{
+       background-color: transparent;
+       padding-bottom: 0;
+      margin-top: 0 !important;
   }
+  #blog {
+  padding: 34px 0 !important;
+  }
+}
 
 @media screen and(max-width: 480px){
   .linea3 {
@@ -649,6 +698,7 @@ background-color:rgb(244, 206, 11);
     }
     .pasos .row h3{
       text-align: inherit;
+        margin-left: 0;
     }
   .pasos .numero {
   position: initial;
@@ -669,4 +719,31 @@ background-color:rgb(244, 206, 11);
    bottom: 0;
    left: 0; 
 }
+}
+
+@media screen and (max-width :480px){
+  #bs-example-navbar-collapse-1 {
+  background-color: rgb(131, 184, 207);
+  height: 100%;
+  }
+  .navbar-nav {
+   float: none !important;
+  text-align: center;
+   padding: 0;
+  }
+  .navbar-default {
+  height: 100% !important;
+  }
+  .nav > li {
+  background-color: rgb(131, 184, 207);
+  padding: 12px 0;
+  }
+  .navbar-nav > li > a {
+  color: #FDF9F9 !important;
+  font-size: 26px;
+  border-bottom: 2px dashed white;
+  }
+  .navbar.scroll {
+  background-color:transparent;
+  }
 }

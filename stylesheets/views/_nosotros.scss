@@ -129,4 +129,30 @@ text-align: center;
 	.gerentes {
  		padding:0;
 	}
+	.btn-responsive{
+		font-size: 9px;
+	}
+	.navbar-brand {
+  	position: absolute;
+  	top: 4px;
+  	left: 42px;
+  		img{
+  		  width: 63%;
+  		}
+	}
+	#portada-nst{
+	background: url(../img/farolito-fondo-quienes-somos.png) no-repeat center center scroll;
+	}
+	.centro {
+		h5{
+			font-size: 15px !important;
+		}
+		h1{
+			 font-size: 31px;
+  			padding: 12px 0;
+		}
+	}
+	.nav-color {
+  		background-color: transparent !important; 
+  	}
 }

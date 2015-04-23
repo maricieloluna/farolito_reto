@@ -5983,8 +5983,8 @@ button.close {
 .orange {
   color: #f4ce0b; }
 
-.red {
-  color: #f03232; }
+.red-cl {
+  color: #f03232 !important; }
 
 .white {
   color: #e8e8e8; }
@@ -6010,7 +6010,7 @@ html, body {
   float: right;
   margin-right: 15px;
   padding: 6px 6px;
-  margin-top: 9px; }
+  margin-top: 11px; }
 
 .btn-responsive:hover {
   background-color: #f74b4b;
@@ -6044,9 +6044,21 @@ html, body {
 
 .modal-content {
   border-radius: 25px;
-  padding-bottom: 33px; }
+  padding-bottom: 33px;
+  border: 5px solid gray; }
 
 /*fin del bottom-modal */
+/* inicio del efecto-barra de navegacion dinamica*/
+.navbar {
+  background-color: transparent;
+  transition: 0.8s ease-in-out;
+  border-radius: 0px; }
+  .navbar.scroll {
+    background-color: #E6F5F1;
+    z-index: 11;
+    position: fixed; }
+
+/*fin-barra*/
 /*comenzando el home  -primera parte*/
 button.navbar-toggle {
   border: none;
@@ -6106,14 +6118,23 @@ button.navbar-toggle {
   #metodologia .icono {
     bottom: -93px; }
 
+.circulo-overlay {
+  height: 404px;
+  border: 3px dashed tomato;
+  border-radius: 50%;
+  width: 74%;
+  margin: 0 auto;
+  padding: 69px; }
+  .circulo-overlay h6 {
+    font-size: 24px; }
+  .circulo-overlay img {
+    position: relative;
+    right: 44px; }
+
 .metodos {
   text-align: center; }
   .metodos .row {
     padding-top: 62px; }
-  .metodos h2 {
-    color: red; }
-  .metodos h3 {
-    color: #aba6a6; }
   .metodos .btn-danger {
     background-color: #11c3d2;
     border-color: #11c3d2;
@@ -6121,75 +6142,73 @@ button.navbar-toggle {
     border-radius: 20px; }
 
 .competencia {
-  padding: 0 25px;
   position: relative;
   top: 244px;
   left: 78px; }
-  .competencia h3 {
-    color: red; }
   .competencia p {
-    color: #aba6a6; }
+    font-size: 17px; }
 
 .preferencias {
-  padding: 0 25px;
   position: relative;
-  top: 244px;
+  top: 236px;
   right: 78px; }
-  .preferencias h3 {
-    color: red; }
   .preferencias p {
-    color: #aba6a6; }
+    font-size: 17px; }
 
 .analisis {
   padding: 54px 140px; }
-  .analisis h3 {
-    color: red; }
   .analisis p {
-    color: #aba6a6; }
+    font-size: 17px; }
 
 .circulo-mayor {
-  background-color: red;
-  width: 70%;
+  background-color: #f03232;
+  width: 74%;
   border-radius: 50%;
   margin: 0 auto;
-  height: 55%;
-  padding: 21px; }
+  height: 404px;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 80px; }
 
 .circulo-menor {
-  background-color: red;
+  background-color: #f03232;
   border-radius: 50%;
   height: 100%;
-  width: 101%;
+  width: 100%;
   margin: 0 auto;
   border: 3px dashed white; }
   .circulo-menor p {
-    padding: 45px 50px;
+    padding: 88px 45px;
     padding-bottom: 25px;
-    color: white;
+    color: #e8e8e8;
     font-size: 21px; }
   .circulo-menor h6 {
-    color: white;
-    font-size: 17px; }
+    color: #e8e8e8;
+    font-size: 21px; }
 
 .linea1 {
-  border: 2px dashed red;
+  border: 2px dashed #f03232;
   transform: rotate(157deg);
   position: relative;
-  left: 173px;
-  top: 191px; }
+  left: 144px;
+  top: 191px;
+  width: 72%; }
 
 .linea2 {
-  border: 2px dashed red;
+  border: 2px dashed #f03232;
   transform: rotate(90deg);
   position: relative;
-  width: 139px; }
+  width: 96px;
+  top: 25px; }
 
 .linea3 {
-  border: 2px dashed red;
+  border: 2px dashed #f03232;
   transform: rotate(202deg);
   position: relative;
-  right: 173px;
-  top: 201px; }
+  right: 145px;
+  top: 191px;
+  width: 72%; }
 
 /*tercera parte */
 #postulacion {
@@ -6203,7 +6222,10 @@ button.navbar-toggle {
 .pasos {
   padding-top: 85px; }
   .pasos h3 {
-    text-align: left; }
+    text-align: left;
+    border-bottom: 2px dashed white;
+    margin-left: 53px;
+    padding-bottom: 18px; }
   .pasos hr {
     border: 2px dashed white; }
   .pasos p {
@@ -6421,12 +6443,7 @@ button.navbar-toggle {
 /*mediascreen*/
 @media screen and (min-width: 480px) {
   .navbar-header .btn-primary {
-    visibility: hidden;
-   /*float: right;
-  margin-top: 12px;
-  margin-right: 13px;
-  padding: 8px 5px;
-}*/ } }
+    visibility: hidden; } }
 @media screen and (max-width: 480px) {
   .fondo h3 {
     padding: 23px 0; }
@@ -6475,7 +6492,15 @@ button.navbar-toggle {
     padding: 0;
     position: initial;
     top: 0;
-    left: 0; } }
+    left: 0; }
+
+  .background {
+    background-color: transparent;
+    padding-bottom: 0;
+    margin-top: 0 !important; }
+
+  #blog {
+    padding: 34px 0 !important; } }
 @media screen and (max-width: 480px) {
   .linea3 {
     border: 2px dashed red;
@@ -6523,7 +6548,8 @@ button.navbar-toggle {
     border-left: 0; }
 
   .pasos .row h3 {
-    text-align: inherit; }
+    text-align: inherit;
+    margin-left: 0; }
 
   .pasos .numero {
     position: initial;
@@ -6542,6 +6568,30 @@ button.navbar-toggle {
     position: initial;
     bottom: 0;
     left: 0; } }
+@media screen and (max-width: 480px) {
+  #bs-example-navbar-collapse-1 {
+    background-color: #83b8cf;
+    height: 100%; }
+
+  .navbar-nav {
+    float: none !important;
+    text-align: center;
+    padding: 0; }
+
+  .navbar-default {
+    height: 100% !important; }
+
+  .nav > li {
+    background-color: #83b8cf;
+    padding: 12px 0; }
+
+  .navbar-nav > li > a {
+    color: #FDF9F9 !important;
+    font-size: 26px;
+    border-bottom: 2px dashed white; }
+
+  .navbar.scroll {
+    background-color: transparent; } }
 html, body {
   height: 100%; }
 
@@ -6648,7 +6698,29 @@ html, body {
     padding: 48px 0; }
 
   .gerentes {
-    padding: 0; } }
+    padding: 0; }
+
+  .btn-responsive {
+    font-size: 9px; }
+
+  .navbar-brand {
+    position: absolute;
+    top: 4px;
+    left: 42px; }
+    .navbar-brand img {
+      width: 63%; }
+
+  #portada-nst {
+    background: url(../img/farolito-fondo-quienes-somos.png) no-repeat center center scroll; }
+
+  .centro h5 {
+    font-size: 15px !important; }
+  .centro h1 {
+    font-size: 31px;
+    padding: 12px 0; }
+
+  .nav-color {
+    background-color: transparent !important; } }
 html, body {
   height: 100%; }
 
@@ -6685,6 +6757,12 @@ html, body {
   padding: 98px 0; }
   #blog-interno .persona {
     width: 100%; }
+  #blog-interno button {
+    width: 30%;
+    background-color: #3B579D;
+    border-color: #3B569D; }
+    #blog-interno button img {
+      width: 27%; }
 
 .titulo {
   display: inline-block; }
@@ -6722,6 +6800,18 @@ html, body {
   line-height: 25px;
   padding-top: 20px; }
 
+.modal-footer .btn-default {
+  color: #FAF2F2;
+  background-color: #4A7AE0;
+  border-color: #F7F4F4; }
+
+@media screen and (max-width: 480px) {
+  #blog-interno h1 {
+    font-size: 25px; }
+  #blog-interno .titulo h3 {
+    font-size: 19px; }
+  #blog-interno .texto-blog {
+    padding-top: 8px; } }
 .navbar-default {
   border-color: rgba(231, 231, 231, 0);
   background-color: transparent;
