@@ -6003,6 +6003,11 @@ p {
 html, body {
   height: 100%; }
 
+/*logofarolito*/
+img.logo-farolito {
+  position: relative;
+  right: 166px; }
+
 /*bottom del responsive  -  modal-ctn efectos*/
 .btn-responsive {
   background-color: #f74b4b;
@@ -6693,6 +6698,9 @@ html, body {
     border-radius: 50%; }
 
 /*mediascreen*/
+@media screen and (max-width: 480px) {
+  .container-fluid {
+    background-color: white; } }
 @media screen and (max-width: 480px) {
   #portada-nst .centro {
     padding: 48px 0; }
